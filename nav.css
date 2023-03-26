@@ -1,0 +1,75 @@
+.Button{
+	display:block;
+	margin-left:auto;
+}
+body {
+   margin: 0px;
+}
+#navBar {
+  list-style-type: none;
+  margin: 0px;
+	margin-top: 0px;
+	margin-left: 10px;
+  padding: 0;
+	overflow: hidden;
+  background-color: rgba(255,255,255,0.3);
+	z-index:1;
+	position: fixed;
+  top: 0;
+  width: 50%;
+	border-radius: 25px;
+}
+#navBar a {
+	margin: 0px;
+	display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 15 px;
+}
+a {
+	border-radius: 15 px;
+}
+.nav {
+  display: inline;
+	float: left;
+}
+
+.L .A {
+  display: block;
+  color: #686e9e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	margin-left: 0;
+	border-radius: 5 px;
+}
+
+.A {
+  display: block;
+  padding: 8px;
+	float: left;
+}
+.active{
+	display: inline;
+	float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	margin-left: 0;
+}
+li a:hover {
+  background-color:rgba(0,0,0,0.3);
+	border-radius: 15 px;
+}
+
+#navbar img {
+            display: inline;
+            width: 50px;
+            height: 45px;
+            margin: 0;
+            justify-content: center;
+						float: left;
+        }
