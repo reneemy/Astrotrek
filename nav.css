@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 .Button{
 	display:block;
 	margin-left:auto;
@@ -16,9 +18,26 @@ body {
 	z-index:1;
 	position: fixed;
   top: 0;
-  width: 50%;
+  width: 1/3%;
 	border-radius: 25px;
+  font-family: 'Bebas Neue', cursive; 
 }
+@media screen and (max-width: 350px) {
+  #navBar{
+  	font-size: 15px;
+  }
+}
+@media screen and (max-width: 300px) {
+  #navBar{
+  	font-size: 12px;
+  }
+}
+@media screen and (max-width: 290px) {
+  #navBar{
+  	font-size: 10px;
+  }
+}
+
 #navBar a {
 	margin: 0px;
 	display: inline-block;
@@ -26,7 +45,7 @@ body {
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1000vm;
   border-radius: 15 px;
 }
 a {
