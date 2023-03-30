@@ -37,7 +37,9 @@ body {
   	font-size: 10px;
   }
 }
-
+#navBar li a.active {
+  background-color: white;
+}
 #navBar a {
 	margin: 0px;
 	display: inline-block;
@@ -47,12 +49,28 @@ body {
   text-decoration: none;
   font-size: 1000vm;
   border-radius: 15 px;
+	display: inline;
+	float: left;
 }
 a {
 	border-radius: 15 px;
+	display: inline;
+	float: left;
 }
-.nav {
-  display: inline;
+.n1{
+	display: inline;
+	float: left;
+}
+.n2{
+	display: inline;
+	float: left;
+}
+.n3{
+	display: inline;
+	float: left;
+}
+.n4{
+	display: inline;
 	float: left;
 }
 

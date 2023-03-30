@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+  Homepage
+  -->
+
+	<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AstroTrek</title>
+  <link href="about.css" rel="stylesheet" type="text/css" />
+  
+	</head >
+	
+	<div id="nav-placeholder"> </div>
+  <div class = "m">
+  <script src="script.js"></script>
+	<header class = "header-banner">
+	<div class="container-width">
+      <div class="logo-container">
+      </div>
+      <div class="clearfix">
+      </div>
+      <div class="lead-title">Astrotrek, where we take you on a trek along the stars
+      </div>
+      <div class="sub-lead-title">Our project, Astrotrek make it our mission to ensure that we take our passengers on a travel that they'll never forget!
+    </div>
+  </header>
+		
+<!--
+	<section>
+		<div class="container reveal">
+    <h2>Caption</h2>
+    <div class="text-container">
+      <div class="text-box">
+        <h3>Section Text</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          eius molestiae perferendis eos provident vitae iste.
+        </p>
+      </div>
+      <div class="text-box">
+        <h3>Section Text</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          eius molestiae perferendis eos provident vitae iste.
+        </p>
+      </div>
+      <div class="text-box">
+        <h3>Section Text</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+          eius molestiae perferendis eos provident vitae iste.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+	</div>
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("nav.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+<script>
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
+</script>
+<script>
+		document.getElementById("button").style.backgroundColor = '##FFFFFF';
+	
+</script>

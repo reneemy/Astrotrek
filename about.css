@@ -1,0 +1,98 @@
+/*
+Homepage
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body  {
+  background-color: #A1C7E7; 
+  color: blue; 
+  font-family: "Georgia", serif; 
+  border: 5px black;
+}
+a{
+	border-radius: 30px;
+}
+#navBar a.active {
+  background-color: white;
+}
+#navBar li a.active {
+  background-color: white;
+}
+.clearfix{
+  clear:both;
+}
+.header-banner{
+  padding-top:50px;
+  padding-bottom:200px;
+  color:whitesmoke;
+  font-family: 'Bebas Neue', cursive; 
+  font-weight:100;
+  background-image:url("https://cdn.pixabay.com/photo/2016/08/04/14/04/space-1569133_1280.jpg");
+  background-attachment:scroll, scroll;
+  background-position:left top, center center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.sub-lead-title{
+  font-weight: 50;
+}
+.container-width{
+	width:90%;
+  max-width:1100x;
+  margin:0 auto;
+}
+
+.lead-title{
+  font-size: 45px;
+}
+
+.sub-lead-title{
+  font-size: 20px;
+}
+
+.text-container{
+	background-color: #686e9e;
+}
+.reveal{
+	background-color: #686e9e
+}
+
+section{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container{
+  margin: 30px;
+}
+
+section .text-container{
+   display: flex;
+}
+section .text-container .text-box{
+  margin: 20px;
+  padding: 20px;
+  background: #00c2cb;
+}
+section .text-container .text-box h3{
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+

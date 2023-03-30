@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<!-- 
+  Homepage
+  -->
+
+	<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AstroTrek</title>
+  <link href="training.css" rel="stylesheet" type="text/css" />
+  
+	</head >
+<div id="nav-placeholder"> </div>
+<header class = "header-banner background-tint">
+	<div class="container-width">
+    <div class="logo-container">
+    </div>
+    <div class="clearfix">
+    </div>
+    <div class="lead-title">Welcome, 
+    </div>
+	<div class = "lead-title">to your first steps into space.</div>
+</header>
+<div class = "info"> 
+	<div class = "box1" id = "col">
+		<div class = "bgi"></div>
+		<div class="box-title">
+        Cost & Facility
+    </div>
+    <div class="box-content">
+        <p> Down payment of $1,000,000 to go through training.</p>
+        <p>Technical: $500,000 </p>
+        <p>Health and Safety: $500,000</p>
+        <p>Training will take place at our state of the art facility in Huston, TX. Our facility will not only provide you with guided training but also comfortable acommadations, a variety of restaraunts and other recreation facilities.</p>
+    </div>
+	</div>
+	
+	<div class = "box2" id = "col">
+		<div class="box-title">
+        Plan
+    </div>
+    <div class="box-content">
+        <p>Our safe and efficent training program will will last for at most 3 months</p>
+        <p>During these 3 months candidates will undergo intensive training that will prepare candidates for any given situation in space. </p>
+        <p>Candidates will be trained for situations such as fire evacuation in space, escape pod conducting, basic space station operation, as well as basic engineering to fix things in the case of an emergency. 
+</p>
+        <p>Name:</p>
+    </div>
+	</div>
+</div>
+</html>
+
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+  $.get("nav.html", function(data){
+      $("#nav-placeholder").replaceWith(data);
+  });
+</script>

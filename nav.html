@@ -12,12 +12,18 @@
 
 	
 <ul id = "navBar">
-	<li class = "nav L"><a href="/about.html" class = "A">About Us</a></li>
-	<li class = "nav L"><a href="/learn.html" class = "A">Space Ship</a></li>
-	<li class = "nav L"><a href="/learn.html" class = "A">Ethos</a></li>
-	<li class = "nav L"><a href="/learn.html" class = "A">Learn More</a></li>
+	<li class = "n1" id = "button"><a href="/about.html" class = "A">About Us</a></li>
+	<li class = "n2"><a href="/learn.html" class = "A">Space Ship</a></li>
+	<li class = "n3"><a href="/training.html" class = "A">Training</a></li>
+	<li class = "n4"><a href="/learn.html" class = "A">Learn More</a></li>
 	<!--<li style= "float:right"><a class="active A L" href="/donation.html">Donate</a></li>
 	<!--<a href="/donation.html">
      <button class="Button">Donate</button>
   </a> -->
 </ul>
+
+<script>
+	if(document.URL.includes("about.html")){
+		document.getElementById("button").style.backgroundColor = '##FFFFFF';
+	}
+</script>
