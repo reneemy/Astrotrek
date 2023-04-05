@@ -87,7 +87,15 @@ a{
 	background-image: url("https://lh3.googleusercontent.com/_RWbLbCB2M7LXzqppshYSEJ-GxChE3lV2YhwrSX4pfTccVobw7VV2WpNjHlAB4HKeyje9sVtbDEFuLuRDUMIvcF6XWlH4Vu3UO6kCKZ_oNpZn7zpK7Q2i8bAyGy7KL3hd1sJ-FGNXg=w2400");
 	
 }
+.bgi2{
+	height:200px;
+  background-image:url("https://m.media-amazon.com/images/I/71BEW7IK0TL.jpg");
+  background-size:cover;
+  background-position:center center;
+	background-image: url("https://lh3.googleusercontent.com/-ho2C-K-ViPLl7XXuvVNKxaWfbZ8b6yzsZ3VLe2N-20393v3_E6d0ZwCyrzKbRKSHK-ssHW6PfRqRnk_Vp1_Y1RwaRrQCNH4u8FeuY4AdeVc9naOebFR0U7uB8tp5xWfRJCMe55LGw=w2400");
+}
 .box2 {
+	margin-left: 2px;
   padding: 10px;
   height: 300px;
 	color:white;
@@ -100,6 +108,17 @@ a{
 .box-content{
 	padding-left:10px;
   padding-right:10px;
-	
+	color:white;
+  font-family: 'Bebas Neue', cursive; 
 	box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+	background-color: #160A36;
 }
