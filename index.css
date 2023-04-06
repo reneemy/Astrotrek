@@ -99,10 +99,11 @@ a:active { text-decoration: none; }
 }
 
 .content{
+	display: block;
   position: absolute;
   top: 45%;
   left: 40%;
-  transform: translate(-50%, 70%);
+  transform: translate(-45%, 70%);
   z-index: 2;
   width: 80%;
   padding: 20px;
@@ -176,6 +177,7 @@ a:active { text-decoration: none; }
 }
 
 .content-trn{
+	display: block;
   position: absolute;
   top: 45%;
   left: 40%;
@@ -185,65 +187,139 @@ a:active { text-decoration: none; }
   padding: 20px;
 }
 
+.background-image-n:hover {
+  -webkit-filter: blur(0px);
+}
+
+.News-box:hover .background-image-n{
+	-webkit-filter: blur(0px);
+}
+
+.News-box{
+  color:whitesmoke;
+  font-family: 'Bebas Neue', cursive; 
+  font-weight:100;
+	max-width:100%;
+  margin:0 auto;
+  transition-duration: 0.2s;
+	background-attachment:scroll, scroll;
+  background-position:left top, center center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.background-image-n{
+   margin-left: 0;
+	margin-right: 0;
+  padding-top:50px;
+  padding-bottom:300px;
+  background-attachment:scroll, scroll;
+  background-position:left top, center center;
+  background-repeat: repeat;
+  background-size: cover;
+  -webkit-filter: blur(2px);
+	transition-duration: 0.2s;
+  background-image: url("https://cdn.pixabay.com/photo/2011/12/14/12/21/orion-nebula-11107_1280.jpg");
+}
+
+.content-n{
+	display: block;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  transform: translate(-45%, 750%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+}
 
 @media screen and (max-width: 400px) {
   .content{
-  	transform: translate(-50%, 100%);;
+  	transform: translate(-45%, 140%);;
   }
 	.content-trn{
 		transform: translate(-45%, 600%);;
 	}
+	.content-n{
+		transform: translate(-45%, 800%);;
+	}
+	
 }
 @media screen and (max-width: 500px) {
   .content{
-  	transform: translate(-50%, 150%);;
+  	transform: translate(-45%, 180%);;
   }
+	.content-n{
+		transform: translate(-45%, 700%);;
+	}
 }
 @media screen and (max-width: 600px) {
   .content{
-  	transform: translate(-50%, 140%);;
+  	transform: translate(-45%, 180%);;
   }
+	.content-n{
+		transform: translate(-45%, 700%);;
+	}
+	
 }
 @media screen and (max-width: 700px) {
   .content{
-  	transform: translate(-50%, 140%);;
+  	transform: translate(-45%, 140%);;
   }
 	.content-trn{
 		transform: translate(-45%, 460%);;
 	}
+	.content-n{
+		transform: translate(-45%, 660%);;
+	}
 }
 @media screen and (max-width: 800px) {
   .content{
-  	transform: translate(-50%, 140%);;
+  	transform: translate(-45%, 140%);;
   }
   .content-trn{
 		transform: translate(-45%, 460%);;
+	}
+	.content-n{
+		transform: translate(-45%, 660%);;
 	}
 }
 @media screen and (max-width: 900px) {
   .content{
-  	transform: translate(-50%, 140%);;
+  	transform: translate(-45%, 140%);;
   }
   .content-trn{
 		transform: translate(-45%, 460%);;
+	}
+	.content-n{
+		transform: translate(-45%, 660%);;
 	}
 }
 @media screen and (max-width: 1000px) {
   .content{
-  	transform: translate(-50%, 140%);;
+  	transform: translate(-45%, 140%);;
   }
   .content-trn{
 		transform: translate(-45%, 460%);;
 	}
+	.content-n{
+		transform: translate(-45%, 660%);;
+	}
 }
 @media screen and (min-width: 1100px) {
   .content-trn{
-		transform: translate(-50%, 375%);;
+		transform: translate(-45%, 375%);;
+	}
+	.content-n{
+		transform: translate(-45%, 640%);;
 	}
 }
 @media screen and (min-width: 1500px) {
   .content-trn{
 		transform: translate(-45%, 400%);;
+	}
+	.content-n{
+		transform: translate(-45%, 620%);;
 	}
 }
 
@@ -262,6 +338,15 @@ a:active { text-decoration: none; }
 }
 
 .trn-subttl{
+  font-size: 20px;
+  margin-left: 20px;
+}
+.news-ttl{
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.news-subttl{
   font-size: 20px;
   margin-left: 20px;
 }
@@ -333,4 +418,98 @@ section .text-container .text-box h3{
   transform: translateY(0);
   opacity: 1;
 }
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
 
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+.signupbtn {
+  padding: 14px 20px;
+  background-color: seagreen;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #160A36;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+	font-family: 'Bebas Neue', cursive; 
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+	height: 70%;
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: hidden;
+	visibility: hidden;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+/* The Modal (background) */

@@ -135,6 +135,7 @@ a:active { text-decoration: none; }
   transition:all 0.5s ease;
   font-weight:100;
   overflow:hidden;
+  border-weight: 2px;
 }
 .card:hover{
   margin-top:-5px;
@@ -180,6 +181,8 @@ a:active { text-decoration: none; }
   flex-flow:wrap;
 }
 .card2{
+	border-style: solid;
+  border-width:5px;
   background-color:#4D4D4C;
   height:490px;
   width:500px;
@@ -235,3 +238,5 @@ a:active { text-decoration: none; }
 	background-size:cover;
   background-position:center center;
 }
+
+

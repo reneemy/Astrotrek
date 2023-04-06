@@ -6,8 +6,8 @@ Homepage
 
 body  {
   background-color: #A1C7E7; 
-  color: blue; 
-  font-family: "Georgia", serif; 
+  color: black; 
+  font-family: 'Bebas Neue', cursive; 
   border: 5px black;
 }
 a{
@@ -95,4 +95,8 @@ section .text-container .text-box h3{
   transform: translateY(0);
   opacity: 1;
 }
-
+.a {
+	background-color: whitesmoke;
+	padding: 20px;
+	padding-top: 10px;
+}

@@ -122,3 +122,51 @@ a{
   flex: 50%;
 	background-color: #160A36;
 }
+
+.Launch-info{
+  color:whitesmoke;
+  font-family: 'Bebas Neue', cursive; 
+  font-weight:100;
+  padding-top: 50px;
+  background-color: purple;  
+  background-image: url("https://cdn.pixabay.com/photo/2021/12/14/16/26/hot-air-balloon-6870834_1280.jpg");
+  background-attachment:fixed;
+  background-position:left top, center center;
+  background-repeat: repeat;
+  background-size: cover;
+  
+}
+
+.lnch-ttl{
+  text-align: center;
+  font-size: 150px;
+
+}
+
+@media screen and (max-width: 400px){
+  .lnch-ttl{
+    font-size: 75px;
+  }
+}
+
+.lnch-body{
+  margin-top: 50px;
+  background-color: indigo;
+  width: 100%;
+  padding-bottom: 40px;
+  text-align: center;
+}
+img.lnch-img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 75%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  padding-top: 20px;
+  padding-left:10px;
+}
