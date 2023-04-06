@@ -1,7 +1,7 @@
 body  {
   background-color: #A1C7E7; 
   color: blue; 
-  font-family: "Georgia", serif; 
+  font-family: 'Bebas Neue', cursive; 
   border: 5px black;
 }
 a{
@@ -51,6 +51,7 @@ a{
     padding:10px;
     color:#fff;
     font-size:30px;
+	font-family: 'Bebas Neue', cursive; 
 }
 .info{
   text-align: center;
